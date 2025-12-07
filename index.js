@@ -42,7 +42,7 @@ function checkAnswer(currentLevel){
         if(userClickedPattern.length===gamePattern.length){
             setTimeout(function(){
                 nextSequence();
-            },800);
+            },1000);
             
             userClickedPattern=[];
         }
